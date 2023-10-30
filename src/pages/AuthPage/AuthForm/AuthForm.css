@@ -1,0 +1,61 @@
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+.auth-form > label {
+  width: 52px;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(46, 53, 64, 1);
+}
+.auth-form > input {
+  width: 387px;
+  height: 45px;
+  padding-left: 20px;
+  border-radius: 5px;
+  border-color: rgba(220, 225, 230, 1);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(46, 53, 64, 1);
+}
+.checkbox {
+  width: 22px !important;
+  height: 22px !important;
+  border-radius: 2px !important;
+  border: 1px !important;
+}
+.checkbox-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 130px;
+
+  color: #ff9600 !important;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.checkbox-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+
+  color: #2e3540;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
