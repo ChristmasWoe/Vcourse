@@ -1,0 +1,26 @@
+{
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": ["@babel/plugin-proposal-object-rest-spread", //using {...obj} syntax
+      "@babel/transform-async-to-generator", //allows using async 
+      "@babel/plugin-proposal-class-properties", //alows using funcName = prop =>{} : syntax
+      "@babel/plugin-syntax-dynamic-import",
+      [
+        "babel-plugin-root-import", //relative pathing
+        {
+          "paths": [{
+              "rootPathSuffix": "src",
+              "rootPathPrefix": "~/"
+            }
+            // {
+            //   "rootPathSuffix": "./src/utils",
+            //   "rootPathPrefix": "!/"
+            // }
+          ]
+        }
+      ]
+    ]
+  }
+  
