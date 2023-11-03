@@ -1,23 +1,20 @@
 import React from 'react';
 import './AuthForm.css';
+import Form from '../../features/Form/Form';
+import RegisterLink from '../../features/RegisterLink/RegisterLink';
+import ForgottenPassLink from '../../features/ForgottenPassLink/ForgottenPassLink';
 
 const AuthForm = () => {
+  const title = 'Вход';
+  const contacts = '©Project 2023';
   return (
-    <form className="auth-form">
-      <label>Почта</label>
-      <input placeholder="example@gmail.ru" type="email"></input>
-      <label>Пароль</label>
-      <input type="password"></input>
-      <span className="checkbox-line">
-        <span className="checkbox-group">
-          <input type="checkbox" className="checkbox" />
-          <p>Запомнить пароль</p>
-        </span>
-        <a href="/">Забыли пароль</a>
-      </span>
-      <button>Войти</button>
-      <a href="/">Зарегистрироваться</a>
-    </form>
+    <div>
+      <h1 className="auth-title">{title}</h1>
+      <Form />
+      <RegisterLink />
+      <ForgottenPassLink />
+      <p>{contacts}</p>
+    </div>
   );
 };
 
