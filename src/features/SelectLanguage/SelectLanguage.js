@@ -1,5 +1,5 @@
 import React from 'react';
-import './SetLanguage.css';
+import './SelectLanguage.css';
 
 const SetLanguage = () => {
   return (
