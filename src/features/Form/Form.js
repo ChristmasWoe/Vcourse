@@ -1,6 +1,10 @@
 import './AuthForm.css';
+import EmailInput from '../EmailInput/EmailInput';
+import PassInput from '../PassInput/PassInput';
+import LoginButton from '../LoginButton/LoginButton';
+import MemorisePassCheckbox from '../MemorisePassCheckbox/MemorisePassCheckbox';
 
-const AuthForm = () => {
+const Form = () => {
   return (
     <form className="auth-form">
       <label>Почта</label>
@@ -19,5 +23,4 @@ const AuthForm = () => {
     </form>
   );
 };
-
-export default AuthForm;
+export default Form;

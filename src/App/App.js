@@ -1,11 +1,13 @@
-import AuthPage from '../pages/AuthPage/AuthPage';
+import Login from '../pages/Login/Login';
 import './App.css';
+import SelectLanguage from '../features/SelectLanguage/SelectLanguage';
 
 export const App = () => {
   return (
     <div id="root">
       <div className="app">
-        <AuthPage />
+        <SelectLanguage />
+        <Login />
       </div>
     </div>
   );
