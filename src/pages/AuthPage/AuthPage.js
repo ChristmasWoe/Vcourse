@@ -1,4 +1,3 @@
-import React from 'react';
 import SetLanguage from '../../components/SetLanguage/SetLanguage';
 import Logo from '../../components/Logo/Logo';
 import AuthForm from './AuthForm/AuthForm';
