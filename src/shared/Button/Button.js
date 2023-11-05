@@ -1,7 +1,8 @@
 import React from 'react';
+import MUIButton from '@mui/material/Button';
 
-const Button = () => {
-  return <button>button</button>;
+const Button = ({ variant, ...rest }) => {
+  return <MUIButton variant={variant} {...rest} />;
 };
 
 export default Button;
