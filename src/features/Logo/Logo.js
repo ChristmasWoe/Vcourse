@@ -1,4 +1,3 @@
-
 const Logo = () => {
   const handleImageClick = () => {
     console.log('http://localhost:3000/');

@@ -1,9 +1,7 @@
-import React from 'react';
-import LanguageDropdown from '../../entities/LanguageDropdown/LanguageDropdown';
 import './SelectLanguage.css';
 
 const SetLanguage = () => {
-  return <LanguageDropdown />;
+  return <div>SelectLanguage</div>;
 };
 
 export default SetLanguage;

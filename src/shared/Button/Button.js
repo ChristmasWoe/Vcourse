@@ -1,4 +1,3 @@
-import React from 'react';
 import MUIButton from '@mui/material/Button';
 
 const Button = ({ variant, ...rest }) => {
