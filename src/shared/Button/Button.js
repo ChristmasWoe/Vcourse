@@ -6,7 +6,6 @@ const Button = ({
   color,
   size,
   onClick,
-  theme,
   children,
   ...rest
 }) => {
