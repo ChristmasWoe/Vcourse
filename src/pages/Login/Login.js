@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <div className="login">
       <SelectLanguage />
-      <Logo />
+      <Logo size={154} />
       <h1>Вход</h1>
       <AuthForm />
       <p>©Project 2023</p>

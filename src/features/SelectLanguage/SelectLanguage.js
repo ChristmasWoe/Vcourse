@@ -26,6 +26,8 @@ const SelectLanguage = () => {
       value: 'deutch',
     },
   ];
+  //язык передавать явно надо через редьюсер
+  //сделаю когда выучу редукс
   return (
     <Dropdown
       options={options}

@@ -1,12 +1,14 @@
-const Logo = () => {
+import './Logo.css';
+
+const Logo = ({ size }) => {
   const handleImageClick = () => {
-    console.log('http://localhost:3000/');
+    window.location.href = 'http://localhost:3000/';
   };
   return (
     <div onClick={handleImageClick} className="logo">
       <svg
-        width="154"
-        height="154"
+        width={size}
+        height={size}
         viewBox="0 0 154 154"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
